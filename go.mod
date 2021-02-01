@@ -19,7 +19,7 @@ require (
 	github.com/gorilla/mux v1.7.3
 	github.com/jinzhu/copier v0.0.0-20190924061706-b57f9002281a
 	github.com/kawamuray/jsonpath v0.0.0-20201211160320-7483bafabd7e
-	github.com/kilic/bls12-381 v0.0.0-20201104083100-a288617c07f1
+	github.com/trustbloc/bls12-381@v0.0.0-20201104214312-31de2a204df8
 	github.com/minio/sha256-simd v0.1.1 // indirect
 	github.com/mitchellh/mapstructure v1.1.2
 	github.com/multiformats/go-multibase v0.0.1
