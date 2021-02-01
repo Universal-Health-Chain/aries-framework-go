@@ -21,15 +21,15 @@ import (
 	"github.com/square/go-jose/v3"
 	"github.com/stretchr/testify/require"
 
-	cryptoapi "github.com/hyperledger/aries-framework-go/pkg/crypto"
-	"github.com/hyperledger/aries-framework-go/pkg/crypto/tinkcrypto"
-	"github.com/hyperledger/aries-framework-go/pkg/crypto/tinkcrypto/primitive/composite/ecdh"
-	"github.com/hyperledger/aries-framework-go/pkg/crypto/tinkcrypto/primitive/composite/keyio"
-	ariesjose "github.com/hyperledger/aries-framework-go/pkg/doc/jose"
-	"github.com/hyperledger/aries-framework-go/pkg/doc/util/jwkkid"
-	"github.com/hyperledger/aries-framework-go/pkg/kms"
-	mockkms "github.com/hyperledger/aries-framework-go/pkg/mock/kms"
-	mockstorage "github.com/hyperledger/aries-framework-go/pkg/mock/storage"
+	cryptoapi "github.com/Universal-Health-Chain/aries-framework-go/pkg/crypto"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/crypto/tinkcrypto"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/crypto/tinkcrypto/primitive/composite/ecdh"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/crypto/tinkcrypto/primitive/composite/keyio"
+	ariesjose "github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/jose"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/util/jwkkid"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/kms"
+	mockkms "github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/kms"
+	mockstorage "github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/storage"
 )
 
 func TestJWEEncryptRoundTrip(t *testing.T) {

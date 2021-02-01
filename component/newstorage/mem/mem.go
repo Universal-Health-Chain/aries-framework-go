@@ -12,7 +12,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/hyperledger/aries-framework-go/pkg/newstorage"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/newstorage"
 )
 
 const (

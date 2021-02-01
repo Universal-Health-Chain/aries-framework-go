@@ -16,10 +16,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/hyperledger/aries-framework-go/pkg/mock/didcomm/protocol"
-	mockstorage "github.com/hyperledger/aries-framework-go/pkg/mock/storage"
-	"github.com/hyperledger/aries-framework-go/pkg/storage"
-	"github.com/hyperledger/aries-framework-go/pkg/storage/mem"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/didcomm/protocol"
+	mockstorage "github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/storage"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/storage"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/storage/mem"
 )
 
 const (

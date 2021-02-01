@@ -13,8 +13,8 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/common/service"
-	mocks "github.com/hyperledger/aries-framework-go/pkg/internal/gomocks/controller/webnotifier"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/common/service"
+	mocks "github.com/Universal-Health-Chain/aries-framework-go/pkg/internal/gomocks/controller/webnotifier"
 )
 
 func TestObserver_RegisterAction(t *testing.T) {

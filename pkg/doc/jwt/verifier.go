@@ -16,8 +16,8 @@ import (
 	"github.com/square/go-jose/v3/json"
 	"golang.org/x/crypto/ed25519"
 
-	"github.com/hyperledger/aries-framework-go/pkg/doc/jose"
-	"github.com/hyperledger/aries-framework-go/pkg/doc/signature/verifier"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/jose"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/signature/verifier"
 )
 
 const (

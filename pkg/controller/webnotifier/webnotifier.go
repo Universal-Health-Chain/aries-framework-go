@@ -13,9 +13,9 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/hyperledger/aries-framework-go/pkg/common/log"
-	"github.com/hyperledger/aries-framework-go/pkg/controller/command"
-	"github.com/hyperledger/aries-framework-go/pkg/controller/rest"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/common/log"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/controller/command"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/controller/rest"
 )
 
 const (

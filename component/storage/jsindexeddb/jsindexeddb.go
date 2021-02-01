@@ -16,17 +16,17 @@ import (
 	"syscall/js"
 	"time"
 
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/messenger"
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/protocol/introduce"
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/protocol/issuecredential"
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/protocol/mediator"
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/protocol/presentproof"
-	"github.com/hyperledger/aries-framework-go/pkg/kms/localkms"
-	"github.com/hyperledger/aries-framework-go/pkg/storage"
-	"github.com/hyperledger/aries-framework-go/pkg/store/connection"
-	"github.com/hyperledger/aries-framework-go/pkg/store/did"
-	"github.com/hyperledger/aries-framework-go/pkg/store/verifiable"
-	"github.com/hyperledger/aries-framework-go/pkg/vdr/peer"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/messenger"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/protocol/introduce"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/protocol/issuecredential"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/protocol/mediator"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/protocol/presentproof"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/kms/localkms"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/storage"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/store/connection"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/store/did"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/store/verifiable"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/vdr/peer"
 )
 
 const (

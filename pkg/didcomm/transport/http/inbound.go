@@ -15,8 +15,8 @@ import (
 
 	"github.com/rs/cors"
 
-	"github.com/hyperledger/aries-framework-go/pkg/common/log"
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/transport"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/common/log"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/transport"
 )
 
 var logger = log.New("aries-framework/http")

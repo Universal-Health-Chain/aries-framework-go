@@ -9,7 +9,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/hyperledger/aries-framework-go/pkg/doc/signature/jsonld"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/signature/jsonld"
 )
 
 const jsonldContext = "@context"

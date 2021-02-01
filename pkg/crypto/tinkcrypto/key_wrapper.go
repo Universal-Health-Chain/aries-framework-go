@@ -19,10 +19,10 @@ import (
 	"golang.org/x/crypto/chacha20poly1305"
 	"golang.org/x/crypto/curve25519"
 
-	cryptoapi "github.com/hyperledger/aries-framework-go/pkg/crypto"
-	"github.com/hyperledger/aries-framework-go/pkg/crypto/tinkcrypto/primitive/composite/keyio"
-	ecdhpb "github.com/hyperledger/aries-framework-go/pkg/crypto/tinkcrypto/primitive/proto/ecdh_aead_go_proto"
-	"github.com/hyperledger/aries-framework-go/pkg/internal/cryptoutil"
+	cryptoapi "github.com/Universal-Health-Chain/aries-framework-go/pkg/crypto"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/crypto/tinkcrypto/primitive/composite/keyio"
+	ecdhpb "github.com/Universal-Health-Chain/aries-framework-go/pkg/crypto/tinkcrypto/primitive/proto/ecdh_aead_go_proto"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/internal/cryptoutil"
 )
 
 const defKeySize = 32

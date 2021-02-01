@@ -6,8 +6,8 @@ package mocks
 
 import (
 	gomock "github.com/golang/mock/gomock"
-	verifiable "github.com/hyperledger/aries-framework-go/pkg/doc/verifiable"
-	verifiable0 "github.com/hyperledger/aries-framework-go/pkg/store/verifiable"
+	verifiable "github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/verifiable"
+	verifiable0 "github.com/Universal-Health-Chain/aries-framework-go/pkg/store/verifiable"
 	reflect "reflect"
 )
 

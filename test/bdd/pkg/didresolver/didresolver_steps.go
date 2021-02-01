@@ -14,13 +14,13 @@ import (
 
 	"github.com/cucumber/godog"
 
-	"github.com/hyperledger/aries-framework-go/pkg/common/log"
-	diddoc "github.com/hyperledger/aries-framework-go/pkg/doc/did"
-	"github.com/hyperledger/aries-framework-go/pkg/doc/jose"
-	vdrapi "github.com/hyperledger/aries-framework-go/pkg/framework/aries/api/vdr"
-	"github.com/hyperledger/aries-framework-go/pkg/kms"
-	bddctx "github.com/hyperledger/aries-framework-go/test/bdd/pkg/context"
-	"github.com/hyperledger/aries-framework-go/test/bdd/pkg/sidetree"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/common/log"
+	diddoc "github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/did"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/jose"
+	vdrapi "github.com/Universal-Health-Chain/aries-framework-go/pkg/framework/aries/api/vdr"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/kms"
+	bddctx "github.com/Universal-Health-Chain/aries-framework-go/test/bdd/pkg/context"
+	"github.com/Universal-Health-Chain/aries-framework-go/test/bdd/pkg/sidetree"
 )
 
 const (

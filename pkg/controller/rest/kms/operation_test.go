@@ -18,11 +18,11 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hyperledger/aries-framework-go/pkg/controller/command"
-	"github.com/hyperledger/aries-framework-go/pkg/controller/command/kms"
-	"github.com/hyperledger/aries-framework-go/pkg/controller/rest"
-	mockkms "github.com/hyperledger/aries-framework-go/pkg/mock/kms"
-	mockprovider "github.com/hyperledger/aries-framework-go/pkg/mock/provider"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/controller/command"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/controller/command/kms"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/controller/rest"
+	mockkms "github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/kms"
+	mockprovider "github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/provider"
 )
 
 func TestNew(t *testing.T) {

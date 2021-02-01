@@ -13,8 +13,8 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/require"
 
-	mocks "github.com/hyperledger/aries-framework-go/pkg/internal/gomocks/storage"
-	verifiableStoreMocks "github.com/hyperledger/aries-framework-go/pkg/internal/gomocks/store/verifiable"
+	mocks "github.com/Universal-Health-Chain/aries-framework-go/pkg/internal/gomocks/storage"
+	verifiableStoreMocks "github.com/Universal-Health-Chain/aries-framework-go/pkg/internal/gomocks/store/verifiable"
 )
 
 func TestDefaultFramework(t *testing.T) {

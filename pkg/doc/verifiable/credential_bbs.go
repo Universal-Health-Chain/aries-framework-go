@@ -10,7 +10,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/hyperledger/aries-framework-go/pkg/doc/signature/suite/bbsblssignatureproof2020"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/signature/suite/bbsblssignatureproof2020"
 )
 
 // GenerateBBSSelectiveDisclosure generate BBS+ selective disclosure from one BBS+ signature.

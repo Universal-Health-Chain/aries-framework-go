@@ -15,12 +15,12 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hyperledger/aries-framework-go/pkg/client/outofband"
-	"github.com/hyperledger/aries-framework-go/pkg/controller/command"
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/protocol/decorator"
-	protocol "github.com/hyperledger/aries-framework-go/pkg/didcomm/protocol/outofband"
-	mocks "github.com/hyperledger/aries-framework-go/pkg/internal/gomocks/client/outofband"
-	mocknotifier "github.com/hyperledger/aries-framework-go/pkg/internal/gomocks/controller/webnotifier"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/client/outofband"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/controller/command"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/protocol/decorator"
+	protocol "github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/protocol/outofband"
+	mocks "github.com/Universal-Health-Chain/aries-framework-go/pkg/internal/gomocks/client/outofband"
+	mocknotifier "github.com/Universal-Health-Chain/aries-framework-go/pkg/internal/gomocks/controller/webnotifier"
 )
 
 const (

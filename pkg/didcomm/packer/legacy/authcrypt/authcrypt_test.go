@@ -19,17 +19,17 @@ import (
 	"github.com/btcsuite/btcutil/base58"
 	"github.com/stretchr/testify/require"
 
-	cryptoapi "github.com/hyperledger/aries-framework-go/pkg/crypto"
-	"github.com/hyperledger/aries-framework-go/pkg/crypto/tinkcrypto"
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/common/transport"
-	"github.com/hyperledger/aries-framework-go/pkg/kms"
-	"github.com/hyperledger/aries-framework-go/pkg/kms/localkms"
-	"github.com/hyperledger/aries-framework-go/pkg/kms/webkms"
-	mockkms "github.com/hyperledger/aries-framework-go/pkg/mock/kms"
-	mockStorage "github.com/hyperledger/aries-framework-go/pkg/mock/storage"
-	"github.com/hyperledger/aries-framework-go/pkg/secretlock"
-	"github.com/hyperledger/aries-framework-go/pkg/secretlock/noop"
-	"github.com/hyperledger/aries-framework-go/pkg/storage"
+	cryptoapi "github.com/Universal-Health-Chain/aries-framework-go/pkg/crypto"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/crypto/tinkcrypto"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/common/transport"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/kms"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/kms/localkms"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/kms/webkms"
+	mockkms "github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/kms"
+	mockStorage "github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/storage"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/secretlock"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/secretlock/noop"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/storage"
 )
 
 // failReader wraps a Reader, used for testing different failure checks for encryption tests.

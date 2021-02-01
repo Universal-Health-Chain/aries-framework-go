@@ -24,13 +24,13 @@ import (
 	"github.com/piprate/json-gold/ld"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hyperledger/aries-framework-go/pkg/doc/bbs/bbs12381g2pub"
-	. "github.com/hyperledger/aries-framework-go/pkg/doc/presexch"
-	"github.com/hyperledger/aries-framework-go/pkg/doc/signature/jsonld"
-	"github.com/hyperledger/aries-framework-go/pkg/doc/signature/suite"
-	"github.com/hyperledger/aries-framework-go/pkg/doc/signature/suite/bbsblssignature2020"
-	"github.com/hyperledger/aries-framework-go/pkg/doc/util"
-	"github.com/hyperledger/aries-framework-go/pkg/doc/verifiable"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/bbs/bbs12381g2pub"
+	. "github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/presexch"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/signature/jsonld"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/signature/suite"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/signature/suite/bbsblssignature2020"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/util"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/verifiable"
 )
 
 const errMsgSchema = "credentials do not satisfy requirements"

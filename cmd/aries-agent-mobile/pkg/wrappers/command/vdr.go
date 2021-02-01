@@ -9,9 +9,9 @@ package command
 import (
 	"encoding/json"
 
-	"github.com/hyperledger/aries-framework-go/cmd/aries-agent-mobile/pkg/wrappers/models"
-	"github.com/hyperledger/aries-framework-go/pkg/controller/command"
-	cmdvdr "github.com/hyperledger/aries-framework-go/pkg/controller/command/vdr"
+	"github.com/Universal-Health-Chain/aries-framework-go/cmd/aries-agent-mobile/pkg/wrappers/models"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/controller/command"
+	cmdvdr "github.com/Universal-Health-Chain/aries-framework-go/pkg/controller/command/vdr"
 )
 
 // VDR contains necessary fields for each of its operations.

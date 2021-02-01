@@ -15,12 +15,12 @@ import (
 
 	"github.com/btcsuite/btcutil/base58"
 
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/common/transport"
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/packer"
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/packer/authcrypt"
-	"github.com/hyperledger/aries-framework-go/pkg/framework/aries/api/vdr"
-	"github.com/hyperledger/aries-framework-go/pkg/storage"
-	"github.com/hyperledger/aries-framework-go/pkg/store/did"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/common/transport"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/packer"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/packer/authcrypt"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/framework/aries/api/vdr"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/storage"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/store/did"
 )
 
 const authSuffix = "-authcrypt"

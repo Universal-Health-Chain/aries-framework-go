@@ -16,12 +16,12 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/xeipuuv/gojsonschema"
 
-	"github.com/hyperledger/aries-framework-go/pkg/doc/jose"
-	"github.com/hyperledger/aries-framework-go/pkg/doc/signature/jsonld"
-	"github.com/hyperledger/aries-framework-go/pkg/doc/signature/suite"
-	"github.com/hyperledger/aries-framework-go/pkg/doc/signature/suite/ed25519signature2018"
-	"github.com/hyperledger/aries-framework-go/pkg/doc/signature/verifier"
-	"github.com/hyperledger/aries-framework-go/pkg/kms"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/jose"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/signature/jsonld"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/signature/suite"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/signature/suite/ed25519signature2018"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/signature/verifier"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/kms"
 )
 
 const singleCredentialSubject = `

@@ -9,7 +9,7 @@ package command
 import (
 	"testing"
 
-	"github.com/hyperledger/aries-framework-go/pkg/common/log"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/common/log"
 )
 
 func Test_WriteNillableResponse(t *testing.T) {

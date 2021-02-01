@@ -12,7 +12,7 @@ package msghandler
 import (
 	"fmt"
 
-	"github.com/hyperledger/aries-framework-go/pkg/mock/didcomm/protocol/generic"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/didcomm/protocol/generic"
 )
 
 func ExampleRegistrar_Register() {

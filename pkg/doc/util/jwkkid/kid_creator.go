@@ -20,10 +20,10 @@ import (
 
 	hybrid "github.com/google/tink/go/hybrid/subtle"
 
-	cryptoapi "github.com/hyperledger/aries-framework-go/pkg/crypto"
-	"github.com/hyperledger/aries-framework-go/pkg/doc/jose"
-	"github.com/hyperledger/aries-framework-go/pkg/internal/cryptoutil"
-	"github.com/hyperledger/aries-framework-go/pkg/kms"
+	cryptoapi "github.com/Universal-Health-Chain/aries-framework-go/pkg/crypto"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/jose"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/internal/cryptoutil"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/kms"
 )
 
 var errInvalidKeyType = errors.New("key type is not supported")

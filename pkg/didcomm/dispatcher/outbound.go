@@ -14,13 +14,13 @@ import (
 	"github.com/btcsuite/btcutil/base58"
 	"github.com/google/uuid"
 
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/common/model"
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/common/service"
-	commontransport "github.com/hyperledger/aries-framework-go/pkg/didcomm/common/transport"
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/protocol/decorator"
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/transport"
-	"github.com/hyperledger/aries-framework-go/pkg/framework/aries/api/vdr"
-	"github.com/hyperledger/aries-framework-go/pkg/kms"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/common/model"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/common/service"
+	commontransport "github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/common/transport"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/protocol/decorator"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/transport"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/framework/aries/api/vdr"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/kms"
 )
 
 // provider interface for outbound ctx.

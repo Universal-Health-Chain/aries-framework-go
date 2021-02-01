@@ -9,7 +9,7 @@ package mock
 import (
 	"errors"
 
-	"github.com/hyperledger/aries-framework-go/pkg/newstorage"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/newstorage"
 )
 
 // Provider is a mocked implementation of newstorage.Provider.

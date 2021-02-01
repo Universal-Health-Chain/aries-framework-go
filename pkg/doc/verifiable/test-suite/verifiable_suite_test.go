@@ -26,9 +26,9 @@ import (
 
 	"github.com/square/go-jose/v3"
 
-	"github.com/hyperledger/aries-framework-go/pkg/common/log"
-	"github.com/hyperledger/aries-framework-go/pkg/doc/verifiable"
-	"github.com/hyperledger/aries-framework-go/pkg/kms"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/common/log"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/verifiable"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/kms"
 )
 
 var logger = log.New("aries-framework/doc/verifiable/test-suite")

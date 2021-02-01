@@ -14,9 +14,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/hyperledger/aries-framework-go/pkg/doc/verifiable"
-	mockprovider "github.com/hyperledger/aries-framework-go/pkg/mock/provider"
-	mockstore "github.com/hyperledger/aries-framework-go/pkg/mock/storage"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/verifiable"
+	mockprovider "github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/provider"
+	mockstore "github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/storage"
 )
 
 const (

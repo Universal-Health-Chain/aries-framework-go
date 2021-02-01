@@ -8,8 +8,8 @@ package verifiable
 import (
 	"fmt"
 
-	"github.com/hyperledger/aries-framework-go/pkg/doc/jose"
-	"github.com/hyperledger/aries-framework-go/pkg/doc/jwt"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/jose"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/jwt"
 )
 
 // Signer defines signer interface which is used to sign VC JWT.

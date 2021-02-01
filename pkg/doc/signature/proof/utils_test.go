@@ -12,7 +12,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/hyperledger/aries-framework-go/pkg/doc/util"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/util"
 )
 
 func TestAddManyProofs(t *testing.T) {

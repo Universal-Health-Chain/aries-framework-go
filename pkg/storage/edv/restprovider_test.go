@@ -18,11 +18,11 @@ import (
 	"github.com/google/tink/go/mac"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hyperledger/aries-framework-go/pkg/crypto/tinkcrypto"
-	mockcrypto "github.com/hyperledger/aries-framework-go/pkg/mock/crypto"
-	"github.com/hyperledger/aries-framework-go/pkg/mock/edv"
-	"github.com/hyperledger/aries-framework-go/pkg/storage"
-	"github.com/hyperledger/aries-framework-go/pkg/storage/edv/models"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/crypto/tinkcrypto"
+	mockcrypto "github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/crypto"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/edv"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/storage"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/storage/edv/models"
 )
 
 var errTest = errors.New("test error")

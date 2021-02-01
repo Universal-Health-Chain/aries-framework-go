@@ -15,9 +15,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"nhooyr.io/websocket"
 
-	commontransport "github.com/hyperledger/aries-framework-go/pkg/didcomm/common/transport"
-	"github.com/hyperledger/aries-framework-go/pkg/internal/test/transportutil"
-	mockpackager "github.com/hyperledger/aries-framework-go/pkg/mock/didcomm/packager"
+	commontransport "github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/common/transport"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/internal/test/transportutil"
+	mockpackager "github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/didcomm/packager"
 )
 
 func TestInboundTransport(t *testing.T) {

@@ -16,17 +16,17 @@ import (
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/common/model"
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/common/service"
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/protocol/decorator"
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/protocol/didexchange"
-	"github.com/hyperledger/aries-framework-go/pkg/doc/did"
-	"github.com/hyperledger/aries-framework-go/pkg/framework/aries/api"
-	"github.com/hyperledger/aries-framework-go/pkg/mock/didcomm/protocol"
-	mockdidexchange "github.com/hyperledger/aries-framework-go/pkg/mock/didcomm/protocol/didexchange"
-	mockstore "github.com/hyperledger/aries-framework-go/pkg/mock/storage"
-	"github.com/hyperledger/aries-framework-go/pkg/storage"
-	"github.com/hyperledger/aries-framework-go/pkg/store/connection"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/common/model"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/common/service"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/protocol/decorator"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/protocol/didexchange"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/did"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/framework/aries/api"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/didcomm/protocol"
+	mockdidexchange "github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/didcomm/protocol/didexchange"
+	mockstore "github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/storage"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/storage"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/store/connection"
 )
 
 const (

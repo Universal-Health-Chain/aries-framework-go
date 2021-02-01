@@ -9,8 +9,8 @@ package verifiable
 import (
 	"encoding/json"
 
-	"github.com/hyperledger/aries-framework-go/pkg/controller/command/verifiable"
-	verifiablestore "github.com/hyperledger/aries-framework-go/pkg/store/verifiable"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/controller/command/verifiable"
+	verifiablestore "github.com/Universal-Health-Chain/aries-framework-go/pkg/store/verifiable"
 )
 
 // validateCredentialReq model

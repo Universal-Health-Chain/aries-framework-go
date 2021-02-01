@@ -9,8 +9,8 @@ package presentproof
 import (
 	"errors"
 
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/common/service"
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/protocol/presentproof"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/common/service"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/protocol/presentproof"
 )
 
 type (

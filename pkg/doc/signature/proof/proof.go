@@ -10,7 +10,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/hyperledger/aries-framework-go/pkg/doc/util"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/util"
 )
 
 const (

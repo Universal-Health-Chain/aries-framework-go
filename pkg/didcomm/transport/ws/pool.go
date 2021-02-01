@@ -14,9 +14,9 @@ import (
 	"github.com/btcsuite/btcutil/base58"
 	"nhooyr.io/websocket"
 
-	commtransport "github.com/hyperledger/aries-framework-go/pkg/didcomm/common/transport"
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/protocol/decorator"
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/transport"
+	commtransport "github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/common/transport"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/protocol/decorator"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/transport"
 )
 
 const (

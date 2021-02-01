@@ -12,14 +12,14 @@ import (
 
 	"github.com/google/tink/go/keyset"
 
-	"github.com/hyperledger/aries-framework-go/pkg/crypto/tinkcrypto"
-	"github.com/hyperledger/aries-framework-go/pkg/doc/signature/suite"
-	sigverifier "github.com/hyperledger/aries-framework-go/pkg/doc/signature/verifier"
-	kmsapi "github.com/hyperledger/aries-framework-go/pkg/kms"
-	"github.com/hyperledger/aries-framework-go/pkg/kms/localkms"
-	mockkms "github.com/hyperledger/aries-framework-go/pkg/mock/kms"
-	"github.com/hyperledger/aries-framework-go/pkg/mock/storage"
-	"github.com/hyperledger/aries-framework-go/pkg/secretlock/noop"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/crypto/tinkcrypto"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/signature/suite"
+	sigverifier "github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/signature/verifier"
+	kmsapi "github.com/Universal-Health-Chain/aries-framework-go/pkg/kms"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/kms/localkms"
+	mockkms "github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/kms"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/storage"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/secretlock/noop"
 )
 
 func TestNewCryptoSignerAndVerifier(t *testing.T) {

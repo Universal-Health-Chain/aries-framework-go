@@ -9,7 +9,7 @@ package mocklogger
 import (
 	"fmt"
 
-	"github.com/hyperledger/aries-framework-go/pkg/common/log"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/common/log"
 )
 
 // MockLogger is a mocked logger that can be used for testing.

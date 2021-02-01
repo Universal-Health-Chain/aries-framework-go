@@ -12,7 +12,7 @@ import (
 	commonpb "github.com/google/tink/go/proto/common_go_proto"
 	tinkpb "github.com/google/tink/go/proto/tink_go_proto"
 
-	ecdhpb "github.com/hyperledger/aries-framework-go/pkg/crypto/tinkcrypto/primitive/proto/ecdh_aead_go_proto"
+	ecdhpb "github.com/Universal-Health-Chain/aries-framework-go/pkg/crypto/tinkcrypto/primitive/proto/ecdh_aead_go_proto"
 )
 
 // NISTP256ECDHKWKeyTemplate is a KeyTemplate that generates a key that accepts a CEK for JWE content

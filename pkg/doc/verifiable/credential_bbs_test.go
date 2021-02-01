@@ -13,13 +13,13 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/hyperledger/aries-framework-go/pkg/doc/bbs/bbs12381g2pub"
-	"github.com/hyperledger/aries-framework-go/pkg/doc/signature/jsonld"
-	"github.com/hyperledger/aries-framework-go/pkg/doc/signature/suite"
-	"github.com/hyperledger/aries-framework-go/pkg/doc/signature/suite/bbsblssignature2020"
-	"github.com/hyperledger/aries-framework-go/pkg/doc/signature/suite/bbsblssignatureproof2020"
-	"github.com/hyperledger/aries-framework-go/pkg/doc/signature/suite/ed25519signature2018"
-	"github.com/hyperledger/aries-framework-go/pkg/kms"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/bbs/bbs12381g2pub"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/signature/jsonld"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/signature/suite"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/signature/suite/bbsblssignature2020"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/signature/suite/bbsblssignatureproof2020"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/signature/suite/ed25519signature2018"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/kms"
 )
 
 //nolint:lll

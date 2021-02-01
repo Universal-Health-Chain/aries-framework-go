@@ -9,7 +9,7 @@ package webnotifier
 import (
 	"encoding/json"
 
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/common/service"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/common/service"
 )
 
 const (

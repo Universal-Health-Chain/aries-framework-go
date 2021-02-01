@@ -15,7 +15,7 @@ import (
 
 	"github.com/mitchellh/mapstructure"
 
-	"github.com/hyperledger/aries-framework-go/pkg/doc/did"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/did"
 )
 
 const (

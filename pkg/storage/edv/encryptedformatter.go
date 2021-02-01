@@ -13,8 +13,8 @@ import (
 
 	"github.com/btcsuite/btcutil/base58"
 
-	"github.com/hyperledger/aries-framework-go/pkg/doc/jose"
-	"github.com/hyperledger/aries-framework-go/pkg/storage/edv/models"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/jose"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/storage/edv/models"
 )
 
 const (

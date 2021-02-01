@@ -19,14 +19,14 @@ import (
 	tinkpb "github.com/google/tink/go/proto/tink_go_proto"
 	"github.com/stretchr/testify/require"
 
-	storageGoMocks "github.com/hyperledger/aries-framework-go/pkg/internal/gomocks/storage"
-	"github.com/hyperledger/aries-framework-go/pkg/kms"
-	mockkms "github.com/hyperledger/aries-framework-go/pkg/mock/kms"
-	mocksecretlock "github.com/hyperledger/aries-framework-go/pkg/mock/secretlock"
-	mockstorage "github.com/hyperledger/aries-framework-go/pkg/mock/storage"
-	"github.com/hyperledger/aries-framework-go/pkg/secretlock"
-	"github.com/hyperledger/aries-framework-go/pkg/secretlock/noop"
-	"github.com/hyperledger/aries-framework-go/pkg/storage"
+	storageGoMocks "github.com/Universal-Health-Chain/aries-framework-go/pkg/internal/gomocks/storage"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/kms"
+	mockkms "github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/kms"
+	mocksecretlock "github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/secretlock"
+	mockstorage "github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/storage"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/secretlock"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/secretlock/noop"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/storage"
 )
 
 func TestImportECDSAKeyWithInvalidKey(t *testing.T) {

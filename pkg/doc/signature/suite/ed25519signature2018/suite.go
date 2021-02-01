@@ -14,8 +14,8 @@ package ed25519signature2018
 import (
 	"crypto/sha256"
 
-	"github.com/hyperledger/aries-framework-go/pkg/doc/signature/jsonld"
-	"github.com/hyperledger/aries-framework-go/pkg/doc/signature/suite"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/signature/jsonld"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/signature/suite"
 )
 
 // Suite implements ed25519 signature suite.

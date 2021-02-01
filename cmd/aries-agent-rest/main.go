@@ -26,8 +26,8 @@ package main
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/hyperledger/aries-framework-go/cmd/aries-agent-rest/startcmd"
-	"github.com/hyperledger/aries-framework-go/pkg/common/log"
+	"github.com/Universal-Health-Chain/aries-framework-go/cmd/aries-agent-rest/startcmd"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/common/log"
 )
 
 // This is an application which starts Aries agent controller API on given port.

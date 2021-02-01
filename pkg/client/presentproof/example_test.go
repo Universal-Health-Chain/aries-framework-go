@@ -13,14 +13,14 @@ import (
 
 	"github.com/golang/mock/gomock"
 
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/common/service"
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/messenger"
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/protocol/presentproof"
-	mocks "github.com/hyperledger/aries-framework-go/pkg/internal/gomocks/client/presentproof"
-	dispatchermocks "github.com/hyperledger/aries-framework-go/pkg/internal/gomocks/didcomm/dispatcher"
-	messengermocks "github.com/hyperledger/aries-framework-go/pkg/internal/gomocks/didcomm/messenger"
-	protocolmocks "github.com/hyperledger/aries-framework-go/pkg/internal/gomocks/didcomm/protocol/presentproof"
-	"github.com/hyperledger/aries-framework-go/pkg/storage/mem"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/common/service"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/messenger"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/protocol/presentproof"
+	mocks "github.com/Universal-Health-Chain/aries-framework-go/pkg/internal/gomocks/client/presentproof"
+	dispatchermocks "github.com/Universal-Health-Chain/aries-framework-go/pkg/internal/gomocks/didcomm/dispatcher"
+	messengermocks "github.com/Universal-Health-Chain/aries-framework-go/pkg/internal/gomocks/didcomm/messenger"
+	protocolmocks "github.com/Universal-Health-Chain/aries-framework-go/pkg/internal/gomocks/didcomm/protocol/presentproof"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/storage/mem"
 )
 
 // payload represents a transport message structure.

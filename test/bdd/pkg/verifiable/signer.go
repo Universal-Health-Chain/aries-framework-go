@@ -11,7 +11,7 @@ import (
 	"crypto/ecdsa"
 	"crypto/rand"
 
-	ariescrypto "github.com/hyperledger/aries-framework-go/pkg/crypto"
+	ariescrypto "github.com/Universal-Health-Chain/aries-framework-go/pkg/crypto"
 )
 
 type cryptoSigner struct {

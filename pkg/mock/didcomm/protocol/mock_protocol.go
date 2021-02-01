@@ -7,21 +7,21 @@ SPDX-License-Identifier: Apache-2.0
 package protocol
 
 import (
-	"github.com/hyperledger/aries-framework-go/pkg/crypto"
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/common/service"
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/dispatcher"
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/transport"
-	vdrapi "github.com/hyperledger/aries-framework-go/pkg/framework/aries/api/vdr"
-	"github.com/hyperledger/aries-framework-go/pkg/kms"
-	mockcrypto "github.com/hyperledger/aries-framework-go/pkg/mock/crypto"
-	mockdispatcher "github.com/hyperledger/aries-framework-go/pkg/mock/didcomm/dispatcher"
-	mockservice "github.com/hyperledger/aries-framework-go/pkg/mock/didcomm/service"
-	mockkms "github.com/hyperledger/aries-framework-go/pkg/mock/kms"
-	mocksecretlock "github.com/hyperledger/aries-framework-go/pkg/mock/secretlock"
-	mockstore "github.com/hyperledger/aries-framework-go/pkg/mock/storage"
-	mockvdr "github.com/hyperledger/aries-framework-go/pkg/mock/vdr"
-	"github.com/hyperledger/aries-framework-go/pkg/secretlock"
-	"github.com/hyperledger/aries-framework-go/pkg/storage"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/crypto"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/common/service"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/dispatcher"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/transport"
+	vdrapi "github.com/Universal-Health-Chain/aries-framework-go/pkg/framework/aries/api/vdr"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/kms"
+	mockcrypto "github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/crypto"
+	mockdispatcher "github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/didcomm/dispatcher"
+	mockservice "github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/didcomm/service"
+	mockkms "github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/kms"
+	mocksecretlock "github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/secretlock"
+	mockstore "github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/storage"
+	mockvdr "github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/vdr"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/secretlock"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/storage"
 )
 
 // MockProvider is provider for DIDExchange Service.

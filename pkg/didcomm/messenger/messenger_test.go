@@ -14,11 +14,11 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/common/service"
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/protocol/decorator"
-	dispatcherMocks "github.com/hyperledger/aries-framework-go/pkg/internal/gomocks/didcomm/dispatcher"
-	messengerMocks "github.com/hyperledger/aries-framework-go/pkg/internal/gomocks/didcomm/messenger"
-	storageMocks "github.com/hyperledger/aries-framework-go/pkg/internal/gomocks/storage"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/common/service"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/protocol/decorator"
+	dispatcherMocks "github.com/Universal-Health-Chain/aries-framework-go/pkg/internal/gomocks/didcomm/dispatcher"
+	messengerMocks "github.com/Universal-Health-Chain/aries-framework-go/pkg/internal/gomocks/didcomm/messenger"
+	storageMocks "github.com/Universal-Health-Chain/aries-framework-go/pkg/internal/gomocks/storage"
 )
 
 const (

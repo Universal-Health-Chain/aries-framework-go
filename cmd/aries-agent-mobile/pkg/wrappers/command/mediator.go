@@ -9,9 +9,9 @@ package command
 import (
 	"encoding/json"
 
-	"github.com/hyperledger/aries-framework-go/cmd/aries-agent-mobile/pkg/wrappers/models"
-	"github.com/hyperledger/aries-framework-go/pkg/controller/command"
-	"github.com/hyperledger/aries-framework-go/pkg/controller/command/mediator"
+	"github.com/Universal-Health-Chain/aries-framework-go/cmd/aries-agent-mobile/pkg/wrappers/models"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/controller/command"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/controller/command/mediator"
 )
 
 // Mediator contains necessary fields to support its operations.

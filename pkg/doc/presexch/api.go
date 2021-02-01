@@ -15,7 +15,7 @@ import (
 	"github.com/PaesslerAG/jsonpath"
 	"github.com/piprate/json-gold/ld"
 
-	"github.com/hyperledger/aries-framework-go/pkg/doc/verifiable"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/verifiable"
 )
 
 const (

@@ -12,12 +12,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/hyperledger/aries-framework-go/pkg/doc/did"
-	vdrapi "github.com/hyperledger/aries-framework-go/pkg/framework/aries/api/vdr"
-	"github.com/hyperledger/aries-framework-go/pkg/kms"
-	mockkms "github.com/hyperledger/aries-framework-go/pkg/mock/kms"
-	mockprovider "github.com/hyperledger/aries-framework-go/pkg/mock/provider"
-	mockvdr "github.com/hyperledger/aries-framework-go/pkg/mock/vdr"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/did"
+	vdrapi "github.com/Universal-Health-Chain/aries-framework-go/pkg/framework/aries/api/vdr"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/kms"
+	mockkms "github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/kms"
+	mockprovider "github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/provider"
+	mockvdr "github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/vdr"
 )
 
 func TestRegistry_New(t *testing.T) {

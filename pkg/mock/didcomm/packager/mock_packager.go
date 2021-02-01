@@ -7,7 +7,7 @@ SPDX-License-Identifier: Apache-2.0
 package packager
 
 import (
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/common/transport"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/common/transport"
 )
 
 // Packager represents a mocked Packager.

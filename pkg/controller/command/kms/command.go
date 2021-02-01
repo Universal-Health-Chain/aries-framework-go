@@ -13,12 +13,12 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/hyperledger/aries-framework-go/pkg/common/log"
-	"github.com/hyperledger/aries-framework-go/pkg/controller/command"
-	"github.com/hyperledger/aries-framework-go/pkg/controller/internal/cmdutil"
-	"github.com/hyperledger/aries-framework-go/pkg/doc/jose"
-	"github.com/hyperledger/aries-framework-go/pkg/internal/logutil"
-	"github.com/hyperledger/aries-framework-go/pkg/kms"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/common/log"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/controller/command"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/controller/internal/cmdutil"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/jose"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/internal/logutil"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/kms"
 )
 
 var logger = log.New("aries-framework/command/kms")

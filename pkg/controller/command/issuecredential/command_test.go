@@ -15,11 +15,11 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hyperledger/aries-framework-go/pkg/client/issuecredential"
-	"github.com/hyperledger/aries-framework-go/pkg/controller/command"
-	protocol "github.com/hyperledger/aries-framework-go/pkg/didcomm/protocol/issuecredential"
-	mocks "github.com/hyperledger/aries-framework-go/pkg/internal/gomocks/client/issuecredential"
-	mocknotifier "github.com/hyperledger/aries-framework-go/pkg/internal/gomocks/controller/webnotifier"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/client/issuecredential"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/controller/command"
+	protocol "github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/protocol/issuecredential"
+	mocks "github.com/Universal-Health-Chain/aries-framework-go/pkg/internal/gomocks/client/issuecredential"
+	mocknotifier "github.com/Universal-Health-Chain/aries-framework-go/pkg/internal/gomocks/controller/webnotifier"
 )
 
 const jsonPayload = `{"piid":"id"}`

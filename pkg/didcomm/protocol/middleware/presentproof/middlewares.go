@@ -13,12 +13,12 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/protocol/decorator"
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/protocol/presentproof"
-	"github.com/hyperledger/aries-framework-go/pkg/doc/presexch"
-	"github.com/hyperledger/aries-framework-go/pkg/doc/verifiable"
-	vdrapi "github.com/hyperledger/aries-framework-go/pkg/framework/aries/api/vdr"
-	storeverifiable "github.com/hyperledger/aries-framework-go/pkg/store/verifiable"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/protocol/decorator"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/protocol/presentproof"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/presexch"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/verifiable"
+	vdrapi "github.com/Universal-Health-Chain/aries-framework-go/pkg/framework/aries/api/vdr"
+	storeverifiable "github.com/Universal-Health-Chain/aries-framework-go/pkg/store/verifiable"
 )
 
 const (

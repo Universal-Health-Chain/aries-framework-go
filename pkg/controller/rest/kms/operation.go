@@ -10,11 +10,11 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/hyperledger/aries-framework-go/pkg/controller/command"
-	cmdkms "github.com/hyperledger/aries-framework-go/pkg/controller/command/kms"
-	"github.com/hyperledger/aries-framework-go/pkg/controller/internal/cmdutil"
-	"github.com/hyperledger/aries-framework-go/pkg/controller/rest"
-	"github.com/hyperledger/aries-framework-go/pkg/kms"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/controller/command"
+	cmdkms "github.com/Universal-Health-Chain/aries-framework-go/pkg/controller/command/kms"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/controller/internal/cmdutil"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/controller/rest"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/kms"
 )
 
 // constants for KMS operations.

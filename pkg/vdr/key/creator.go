@@ -10,11 +10,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/hyperledger/aries-framework-go/pkg/doc/did"
-	vdrapi "github.com/hyperledger/aries-framework-go/pkg/framework/aries/api/vdr"
-	"github.com/hyperledger/aries-framework-go/pkg/internal/cryptoutil"
-	"github.com/hyperledger/aries-framework-go/pkg/kms"
-	"github.com/hyperledger/aries-framework-go/pkg/vdr/fingerprint"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/did"
+	vdrapi "github.com/Universal-Health-Chain/aries-framework-go/pkg/framework/aries/api/vdr"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/internal/cryptoutil"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/kms"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/vdr/fingerprint"
 )
 
 const (

@@ -9,8 +9,8 @@ package aries
 import (
 	"fmt"
 
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/transport"
-	"github.com/hyperledger/aries-framework-go/pkg/storage"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/transport"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/storage"
 )
 
 func Example() {

@@ -6,7 +6,7 @@ package mocks
 
 import (
 	gomock "github.com/golang/mock/gomock"
-	service "github.com/hyperledger/aries-framework-go/pkg/didcomm/common/service"
+	service "github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/common/service"
 	reflect "reflect"
 )
 

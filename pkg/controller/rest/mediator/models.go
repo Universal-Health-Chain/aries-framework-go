@@ -6,7 +6,7 @@ SPDX-License-Identifier: Apache-2.0
 
 package mediator
 
-import "github.com/hyperledger/aries-framework-go/pkg/controller/command/mediator"
+import "github.com/Universal-Health-Chain/aries-framework-go/pkg/controller/command/mediator"
 
 // registerRouteReq model
 //

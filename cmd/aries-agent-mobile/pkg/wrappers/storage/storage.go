@@ -8,8 +8,8 @@ SPDX-License-Identifier: Apache-2.0
 package storage
 
 import (
-	"github.com/hyperledger/aries-framework-go/cmd/aries-agent-mobile/pkg/api"
-	"github.com/hyperledger/aries-framework-go/pkg/storage"
+	"github.com/Universal-Health-Chain/aries-framework-go/cmd/aries-agent-mobile/pkg/api"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/storage"
 )
 
 // Provider represents storage provider.

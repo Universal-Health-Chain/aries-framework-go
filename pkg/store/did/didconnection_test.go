@@ -12,11 +12,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	vdrapi "github.com/hyperledger/aries-framework-go/pkg/framework/aries/api/vdr"
-	mockdiddoc "github.com/hyperledger/aries-framework-go/pkg/mock/diddoc"
-	mockstorage "github.com/hyperledger/aries-framework-go/pkg/mock/storage"
-	mockvdr "github.com/hyperledger/aries-framework-go/pkg/mock/vdr"
-	"github.com/hyperledger/aries-framework-go/pkg/storage"
+	vdrapi "github.com/Universal-Health-Chain/aries-framework-go/pkg/framework/aries/api/vdr"
+	mockdiddoc "github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/diddoc"
+	mockstorage "github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/storage"
+	mockvdr "github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/vdr"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/storage"
 )
 
 type ctx struct {

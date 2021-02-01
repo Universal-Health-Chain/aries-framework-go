@@ -6,7 +6,7 @@ SPDX-License-Identifier: Apache-2.0
 
 package secretlock
 
-import "github.com/hyperledger/aries-framework-go/pkg/secretlock"
+import "github.com/Universal-Health-Chain/aries-framework-go/pkg/secretlock"
 
 // MockSecretLock mocking a Secret Lock service.
 type MockSecretLock struct {

@@ -18,10 +18,10 @@ import (
 	commonpb "github.com/google/tink/go/proto/common_go_proto"
 	"github.com/stretchr/testify/require"
 
-	cryptoapi "github.com/hyperledger/aries-framework-go/pkg/crypto"
-	ecdhpb "github.com/hyperledger/aries-framework-go/pkg/crypto/tinkcrypto/primitive/proto/ecdh_aead_go_proto"
-	"github.com/hyperledger/aries-framework-go/pkg/internal/cryptoutil"
-	"github.com/hyperledger/aries-framework-go/pkg/kms"
+	cryptoapi "github.com/Universal-Health-Chain/aries-framework-go/pkg/crypto"
+	ecdhpb "github.com/Universal-Health-Chain/aries-framework-go/pkg/crypto/tinkcrypto/primitive/proto/ecdh_aead_go_proto"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/internal/cryptoutil"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/kms"
 )
 
 func TestCreateKID(t *testing.T) {

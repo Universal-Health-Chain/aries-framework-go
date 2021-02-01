@@ -22,7 +22,7 @@ import (
 	"github.com/square/go-jose/v3"
 	"golang.org/x/crypto/ed25519"
 
-	"github.com/hyperledger/aries-framework-go/pkg/internal/cryptoutil"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/internal/cryptoutil"
 )
 
 const (

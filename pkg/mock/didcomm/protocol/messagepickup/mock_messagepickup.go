@@ -7,9 +7,9 @@ SPDX-License-Identifier: Apache-2.0
 package messagepickup
 
 import (
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/common/model"
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/common/service"
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/protocol/messagepickup"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/common/model"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/common/service"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/protocol/messagepickup"
 )
 
 // MockMessagePickupSvc mock messagepickup service.

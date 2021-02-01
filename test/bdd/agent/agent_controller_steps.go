@@ -17,8 +17,8 @@ import (
 	"github.com/cucumber/godog"
 	"nhooyr.io/websocket"
 
-	"github.com/hyperledger/aries-framework-go/test/bdd/pkg/context"
-	"github.com/hyperledger/aries-framework-go/test/bdd/pkg/util"
+	"github.com/Universal-Health-Chain/aries-framework-go/test/bdd/pkg/context"
+	"github.com/Universal-Health-Chain/aries-framework-go/test/bdd/pkg/util"
 )
 
 const timeoutWebSocketDial = 5 * time.Second

@@ -14,8 +14,8 @@ import (
 
 	"nhooyr.io/websocket"
 
-	"github.com/hyperledger/aries-framework-go/pkg/controller/internal/cmdutil"
-	"github.com/hyperledger/aries-framework-go/pkg/controller/rest"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/controller/internal/cmdutil"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/controller/rest"
 )
 
 // WSNotifier is a dispatcher capable of notifying multiple subscribers via WebSocket.

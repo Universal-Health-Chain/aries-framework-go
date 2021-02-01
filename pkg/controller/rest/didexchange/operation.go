@@ -15,12 +15,12 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/hyperledger/aries-framework-go/pkg/controller/command"
-	"github.com/hyperledger/aries-framework-go/pkg/controller/command/didexchange"
-	"github.com/hyperledger/aries-framework-go/pkg/controller/internal/cmdutil"
-	"github.com/hyperledger/aries-framework-go/pkg/controller/rest"
-	"github.com/hyperledger/aries-framework-go/pkg/kms"
-	"github.com/hyperledger/aries-framework-go/pkg/storage"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/controller/command"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/controller/command/didexchange"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/controller/internal/cmdutil"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/controller/rest"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/kms"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/storage"
 )
 
 // constants for endpoints of DIDExchange.

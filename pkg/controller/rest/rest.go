@@ -11,8 +11,8 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/hyperledger/aries-framework-go/pkg/common/log"
-	"github.com/hyperledger/aries-framework-go/pkg/controller/command"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/common/log"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/controller/command"
 )
 
 var logger = log.New("aries-framework/rest")

@@ -15,9 +15,9 @@ import (
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/common/model"
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/common/service"
-	serviceMocks "github.com/hyperledger/aries-framework-go/pkg/internal/gomocks/didcomm/common/service"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/common/model"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/common/service"
+	serviceMocks "github.com/Universal-Health-Chain/aries-framework-go/pkg/internal/gomocks/didcomm/common/service"
 )
 
 func notTransition(t *testing.T, st state) {

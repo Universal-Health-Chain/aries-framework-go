@@ -6,7 +6,7 @@ SPDX-License-Identifier: Apache-2.0
 
 package config
 
-import "github.com/hyperledger/aries-framework-go/cmd/aries-agent-mobile/pkg/api"
+import "github.com/Universal-Health-Chain/aries-framework-go/cmd/aries-agent-mobile/pkg/api"
 
 // Options represents configurations for Aries.
 type Options struct {

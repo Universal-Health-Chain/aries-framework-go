@@ -10,8 +10,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	. "github.com/hyperledger/aries-framework-go/pkg/doc/did"
-	mockdiddoc "github.com/hyperledger/aries-framework-go/pkg/mock/diddoc"
+	. "github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/did"
+	mockdiddoc "github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/diddoc"
 )
 
 func TestGetRecipientKeys(t *testing.T) {

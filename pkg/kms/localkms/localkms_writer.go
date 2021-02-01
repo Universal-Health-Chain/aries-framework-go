@@ -13,8 +13,8 @@ import (
 
 	"github.com/google/tink/go/subtle/random"
 
-	"github.com/hyperledger/aries-framework-go/pkg/kms"
-	"github.com/hyperledger/aries-framework-go/pkg/storage"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/kms"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/storage"
 )
 
 const maxKeyIDLen = 50

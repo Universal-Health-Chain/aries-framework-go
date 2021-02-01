@@ -20,10 +20,10 @@ import (
 	"github.com/square/go-jose/v3"
 	"github.com/stretchr/testify/require"
 
-	ariesjose "github.com/hyperledger/aries-framework-go/pkg/doc/jose"
-	"github.com/hyperledger/aries-framework-go/pkg/kms"
-	mockkms "github.com/hyperledger/aries-framework-go/pkg/mock/kms"
-	mockprovider "github.com/hyperledger/aries-framework-go/pkg/mock/provider"
+	ariesjose "github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/jose"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/kms"
+	mockkms "github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/kms"
+	mockprovider "github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/provider"
 )
 
 func TestNew(t *testing.T) {

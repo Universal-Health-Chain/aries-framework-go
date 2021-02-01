@@ -13,9 +13,9 @@ import (
 	"github.com/btcsuite/btcutil/base58"
 	"github.com/google/uuid"
 
-	"github.com/hyperledger/aries-framework-go/pkg/doc/did"
-	vdrapi "github.com/hyperledger/aries-framework-go/pkg/framework/aries/api/vdr"
-	"github.com/hyperledger/aries-framework-go/pkg/kms"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/did"
+	vdrapi "github.com/Universal-Health-Chain/aries-framework-go/pkg/framework/aries/api/vdr"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/kms"
 )
 
 const ed25519VerificationKey2018 = "Ed25519VerificationKey2018"

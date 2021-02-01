@@ -22,17 +22,17 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hyperledger/aries-framework-go/pkg/controller/command"
-	"github.com/hyperledger/aries-framework-go/pkg/controller/command/verifiable"
-	"github.com/hyperledger/aries-framework-go/pkg/controller/rest"
-	"github.com/hyperledger/aries-framework-go/pkg/doc/did"
-	verifiableapi "github.com/hyperledger/aries-framework-go/pkg/doc/verifiable"
-	vdrapi "github.com/hyperledger/aries-framework-go/pkg/framework/aries/api/vdr"
-	cryptomock "github.com/hyperledger/aries-framework-go/pkg/mock/crypto"
-	kmsmock "github.com/hyperledger/aries-framework-go/pkg/mock/kms"
-	mockprovider "github.com/hyperledger/aries-framework-go/pkg/mock/provider"
-	mockstore "github.com/hyperledger/aries-framework-go/pkg/mock/storage"
-	mockvdr "github.com/hyperledger/aries-framework-go/pkg/mock/vdr"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/controller/command"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/controller/command/verifiable"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/controller/rest"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/did"
+	verifiableapi "github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/verifiable"
+	vdrapi "github.com/Universal-Health-Chain/aries-framework-go/pkg/framework/aries/api/vdr"
+	cryptomock "github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/crypto"
+	kmsmock "github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/kms"
+	mockprovider "github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/provider"
+	mockstore "github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/storage"
+	mockvdr "github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/vdr"
 )
 
 const (

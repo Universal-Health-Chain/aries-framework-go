@@ -9,8 +9,8 @@ package mem_test
 import (
 	"testing"
 
-	"github.com/hyperledger/aries-framework-go/component/newstorage/mem"
-	"github.com/hyperledger/aries-framework-go/test/newstorage"
+	"github.com/Universal-Health-Chain/aries-framework-go/component/newstorage/mem"
+	"github.com/Universal-Health-Chain/aries-framework-go/test/newstorage"
 )
 
 func TestCommon(t *testing.T) {

@@ -19,14 +19,14 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hyperledger/aries-framework-go/pkg/controller/command"
-	"github.com/hyperledger/aries-framework-go/pkg/controller/command/vdr"
-	"github.com/hyperledger/aries-framework-go/pkg/controller/rest"
-	"github.com/hyperledger/aries-framework-go/pkg/doc/did"
-	"github.com/hyperledger/aries-framework-go/pkg/mock/didcomm/protocol"
-	mockprovider "github.com/hyperledger/aries-framework-go/pkg/mock/provider"
-	mockstore "github.com/hyperledger/aries-framework-go/pkg/mock/storage"
-	mockvdr "github.com/hyperledger/aries-framework-go/pkg/mock/vdr"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/controller/command"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/controller/command/vdr"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/controller/rest"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/did"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/didcomm/protocol"
+	mockprovider "github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/provider"
+	mockstore "github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/storage"
+	mockvdr "github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/vdr"
 )
 
 const sampleDIDName = "sampleDIDName"

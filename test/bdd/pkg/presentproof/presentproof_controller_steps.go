@@ -15,14 +15,14 @@ import (
 
 	"github.com/cucumber/godog"
 
-	"github.com/hyperledger/aries-framework-go/pkg/client/presentproof"
-	didexcmd "github.com/hyperledger/aries-framework-go/pkg/controller/command/didexchange"
-	presentproofcmd "github.com/hyperledger/aries-framework-go/pkg/controller/command/presentproof"
-	"github.com/hyperledger/aries-framework-go/pkg/controller/command/verifiable"
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/protocol/decorator"
-	"github.com/hyperledger/aries-framework-go/test/bdd/pkg/context"
-	didexsteps "github.com/hyperledger/aries-framework-go/test/bdd/pkg/didexchange"
-	"github.com/hyperledger/aries-framework-go/test/bdd/pkg/util"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/client/presentproof"
+	didexcmd "github.com/Universal-Health-Chain/aries-framework-go/pkg/controller/command/didexchange"
+	presentproofcmd "github.com/Universal-Health-Chain/aries-framework-go/pkg/controller/command/presentproof"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/controller/command/verifiable"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/protocol/decorator"
+	"github.com/Universal-Health-Chain/aries-framework-go/test/bdd/pkg/context"
+	didexsteps "github.com/Universal-Health-Chain/aries-framework-go/test/bdd/pkg/didexchange"
+	"github.com/Universal-Health-Chain/aries-framework-go/test/bdd/pkg/util"
 )
 
 const (

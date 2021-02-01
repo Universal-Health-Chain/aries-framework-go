@@ -13,7 +13,7 @@ import (
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hyperledger/aries-framework-go/pkg/newstorage"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/newstorage"
 )
 
 // TestAll tests common storage functionality.

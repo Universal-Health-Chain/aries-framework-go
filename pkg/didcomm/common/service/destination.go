@@ -9,8 +9,8 @@ package service
 import (
 	"fmt"
 
-	diddoc "github.com/hyperledger/aries-framework-go/pkg/doc/did"
-	vdrapi "github.com/hyperledger/aries-framework-go/pkg/framework/aries/api/vdr"
+	diddoc "github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/did"
+	vdrapi "github.com/Universal-Health-Chain/aries-framework-go/pkg/framework/aries/api/vdr"
 )
 
 // Destination provides the recipientKeys, routingKeys, and serviceEndpoint for an outbound message.

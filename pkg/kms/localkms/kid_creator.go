@@ -7,8 +7,8 @@ SPDX-License-Identifier: Apache-2.0
 package localkms
 
 import (
-	"github.com/hyperledger/aries-framework-go/pkg/doc/util/jwkkid"
-	"github.com/hyperledger/aries-framework-go/pkg/kms"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/util/jwkkid"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/kms"
 )
 
 // CreateKID creates a KID value based on the marshalled keyBytes of type kt. This function should be called for

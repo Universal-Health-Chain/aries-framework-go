@@ -17,7 +17,7 @@ import (
 	"github.com/google/uuid"
 	"github.com/piprate/json-gold/ld"
 
-	"github.com/hyperledger/aries-framework-go/pkg/common/log"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/common/log"
 )
 
 const (

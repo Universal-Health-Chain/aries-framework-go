@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/dispatcher"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/dispatcher"
 )
 
 const (

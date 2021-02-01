@@ -10,7 +10,7 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/hyperledger/aries-framework-go/pkg/client/didexchange"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/client/didexchange"
 )
 
 // CreateInvitationArgs model

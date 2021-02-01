@@ -17,7 +17,7 @@ import (
 	"github.com/square/go-jose/v3/json"
 	"github.com/square/go-jose/v3/jwt"
 
-	"github.com/hyperledger/aries-framework-go/pkg/doc/jose"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/jose"
 )
 
 const (

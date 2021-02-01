@@ -6,9 +6,9 @@ package mocks
 
 import (
 	gomock "github.com/golang/mock/gomock"
-	service "github.com/hyperledger/aries-framework-go/pkg/didcomm/common/service"
-	outofband "github.com/hyperledger/aries-framework-go/pkg/didcomm/protocol/outofband"
-	kms "github.com/hyperledger/aries-framework-go/pkg/kms"
+	service "github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/common/service"
+	outofband "github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/protocol/outofband"
+	kms "github.com/Universal-Health-Chain/aries-framework-go/pkg/kms"
 	reflect "reflect"
 )
 

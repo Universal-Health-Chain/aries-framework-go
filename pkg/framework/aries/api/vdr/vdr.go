@@ -11,8 +11,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/hyperledger/aries-framework-go/pkg/doc/did"
-	"github.com/hyperledger/aries-framework-go/pkg/kms"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/did"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/kms"
 )
 
 // ErrNotFound is returned when a DID resolver does not find the DID.

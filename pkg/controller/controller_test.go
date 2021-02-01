@@ -12,13 +12,13 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/hyperledger/aries-framework-go/pkg/controller/internal/mocks/webhook"
-	"github.com/hyperledger/aries-framework-go/pkg/framework/aries"
-	"github.com/hyperledger/aries-framework-go/pkg/framework/aries/api"
-	"github.com/hyperledger/aries-framework-go/pkg/framework/aries/defaults"
-	"github.com/hyperledger/aries-framework-go/pkg/framework/context"
-	"github.com/hyperledger/aries-framework-go/pkg/internal/test/transportutil"
-	"github.com/hyperledger/aries-framework-go/pkg/mock/didcomm/msghandler"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/controller/internal/mocks/webhook"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/framework/aries"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/framework/aries/api"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/framework/aries/defaults"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/framework/context"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/internal/test/transportutil"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/didcomm/msghandler"
 )
 
 func TestGetRESTHandlers(t *testing.T) {

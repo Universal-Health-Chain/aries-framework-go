@@ -16,16 +16,16 @@ import (
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/common/model"
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/common/service"
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/protocol/decorator"
-	"github.com/hyperledger/aries-framework-go/pkg/doc/util"
-	"github.com/hyperledger/aries-framework-go/pkg/doc/verifiable"
-	serviceMocks "github.com/hyperledger/aries-framework-go/pkg/internal/gomocks/didcomm/common/service"
-	issuecredentialMocks "github.com/hyperledger/aries-framework-go/pkg/internal/gomocks/didcomm/protocol/issuecredential"
-	storageMocks "github.com/hyperledger/aries-framework-go/pkg/internal/gomocks/storage"
-	"github.com/hyperledger/aries-framework-go/pkg/storage"
-	"github.com/hyperledger/aries-framework-go/pkg/storage/mem"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/common/model"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/common/service"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/protocol/decorator"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/util"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/verifiable"
+	serviceMocks "github.com/Universal-Health-Chain/aries-framework-go/pkg/internal/gomocks/didcomm/common/service"
+	issuecredentialMocks "github.com/Universal-Health-Chain/aries-framework-go/pkg/internal/gomocks/didcomm/protocol/issuecredential"
+	storageMocks "github.com/Universal-Health-Chain/aries-framework-go/pkg/internal/gomocks/storage"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/storage"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/storage/mem"
 )
 
 const (

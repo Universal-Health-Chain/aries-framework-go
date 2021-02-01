@@ -18,10 +18,10 @@ import (
 	"github.com/piprate/json-gold/ld"
 	"github.com/xeipuuv/gojsonschema"
 
-	"github.com/hyperledger/aries-framework-go/pkg/common/log"
-	"github.com/hyperledger/aries-framework-go/pkg/doc/jwt"
-	"github.com/hyperledger/aries-framework-go/pkg/doc/signature/verifier"
-	"github.com/hyperledger/aries-framework-go/pkg/doc/util"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/common/log"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/jwt"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/signature/verifier"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/util"
 )
 
 var logger = log.New("aries-framework/doc/verifiable")

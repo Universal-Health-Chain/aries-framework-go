@@ -13,9 +13,9 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/common/service"
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/protocol/issuecredential"
-	mocks "github.com/hyperledger/aries-framework-go/pkg/internal/gomocks/client/issuecredential"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/common/service"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/protocol/issuecredential"
+	mocks "github.com/Universal-Health-Chain/aries-framework-go/pkg/internal/gomocks/client/issuecredential"
 )
 
 const (

@@ -7,8 +7,8 @@ SPDX-License-Identifier: Apache-2.0
 package aries
 
 import (
-	"github.com/hyperledger/aries-framework-go/pkg/storage"
-	"github.com/hyperledger/aries-framework-go/pkg/storage/mem"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/storage"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/storage/mem"
 )
 
 func storeProvider() storage.Provider {

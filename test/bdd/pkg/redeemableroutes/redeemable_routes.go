@@ -14,18 +14,18 @@ import (
 
 	"github.com/cucumber/godog"
 
-	"github.com/hyperledger/aries-framework-go/pkg/client/didexchange"
-	introClient "github.com/hyperledger/aries-framework-go/pkg/client/introduce"
-	routeClient "github.com/hyperledger/aries-framework-go/pkg/client/mediator"
-	"github.com/hyperledger/aries-framework-go/pkg/client/outofband"
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/common/service"
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/protocol/decorator"
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/protocol/introduce"
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/protocol/mediator"
-	agentSteps "github.com/hyperledger/aries-framework-go/test/bdd/agent"
-	"github.com/hyperledger/aries-framework-go/test/bdd/pkg/context"
-	bddroute "github.com/hyperledger/aries-framework-go/test/bdd/pkg/mediator"
-	oobSteps "github.com/hyperledger/aries-framework-go/test/bdd/pkg/outofband"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/client/didexchange"
+	introClient "github.com/Universal-Health-Chain/aries-framework-go/pkg/client/introduce"
+	routeClient "github.com/Universal-Health-Chain/aries-framework-go/pkg/client/mediator"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/client/outofband"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/common/service"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/protocol/decorator"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/protocol/introduce"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/protocol/mediator"
+	agentSteps "github.com/Universal-Health-Chain/aries-framework-go/test/bdd/agent"
+	"github.com/Universal-Health-Chain/aries-framework-go/test/bdd/pkg/context"
+	bddroute "github.com/Universal-Health-Chain/aries-framework-go/test/bdd/pkg/mediator"
+	oobSteps "github.com/Universal-Health-Chain/aries-framework-go/test/bdd/pkg/outofband"
 )
 
 const timeout = 5 * time.Second

@@ -18,9 +18,9 @@ import (
 	"github.com/google/tink/go/subtle/random"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hyperledger/aries-framework-go/pkg/secretlock"
-	"github.com/hyperledger/aries-framework-go/pkg/secretlock/local/masterlock/hkdf"
-	"github.com/hyperledger/aries-framework-go/pkg/secretlock/local/masterlock/pbkdf2"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/secretlock"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/secretlock/local/masterlock/hkdf"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/secretlock/local/masterlock/pbkdf2"
 )
 
 const (

@@ -21,11 +21,11 @@ import (
 	"github.com/stretchr/testify/require"
 	"nhooyr.io/websocket"
 
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/common/service"
-	commontransport "github.com/hyperledger/aries-framework-go/pkg/didcomm/common/transport"
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/protocol/decorator"
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/transport"
-	"github.com/hyperledger/aries-framework-go/pkg/internal/test/transportutil"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/common/service"
+	commontransport "github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/common/transport"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/protocol/decorator"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/transport"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/internal/test/transportutil"
 )
 
 type mockProvider struct {

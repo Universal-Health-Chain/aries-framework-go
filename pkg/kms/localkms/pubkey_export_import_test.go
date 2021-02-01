@@ -18,7 +18,7 @@ import (
 	"github.com/google/tink/go/signature"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hyperledger/aries-framework-go/pkg/kms"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/kms"
 )
 
 func TestPubKeyExportAndRead(t *testing.T) {

@@ -17,11 +17,11 @@ import (
 
 	"github.com/gorilla/mux"
 
-	client "github.com/hyperledger/aries-framework-go/pkg/client/issuecredential"
-	"github.com/hyperledger/aries-framework-go/pkg/controller/command"
-	"github.com/hyperledger/aries-framework-go/pkg/controller/command/issuecredential"
-	"github.com/hyperledger/aries-framework-go/pkg/controller/internal/cmdutil"
-	"github.com/hyperledger/aries-framework-go/pkg/controller/rest"
+	client "github.com/Universal-Health-Chain/aries-framework-go/pkg/client/issuecredential"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/controller/command"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/controller/command/issuecredential"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/controller/internal/cmdutil"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/controller/rest"
 )
 
 // constants for issue credential endpoints.

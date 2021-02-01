@@ -13,9 +13,9 @@ import (
 	"github.com/piprate/json-gold/ld"
 	"github.com/xeipuuv/gojsonschema"
 
-	"github.com/hyperledger/aries-framework-go/pkg/doc/jose"
-	"github.com/hyperledger/aries-framework-go/pkg/doc/jwt"
-	"github.com/hyperledger/aries-framework-go/pkg/doc/signature/verifier"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/jose"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/jwt"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/signature/verifier"
 )
 
 const basePresentationSchema = `

@@ -9,7 +9,7 @@ package webkms
 import (
 	"encoding/base64"
 
-	"github.com/hyperledger/aries-framework-go/pkg/crypto"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/crypto"
 )
 
 // wrapKeyReq serializable WrapKey request.

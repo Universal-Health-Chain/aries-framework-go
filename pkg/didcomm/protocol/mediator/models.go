@@ -7,7 +7,7 @@ SPDX-License-Identifier: Apache-2.0
 package mediator
 
 import (
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/protocol/decorator"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/protocol/decorator"
 )
 
 // Request route request message.

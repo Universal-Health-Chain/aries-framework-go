@@ -15,8 +15,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/common/service"
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/transport"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/common/service"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/transport"
 )
 
 //go:generate testdata/scripts/openssl_env.sh testdata/scripts/generate_test_keys.sh

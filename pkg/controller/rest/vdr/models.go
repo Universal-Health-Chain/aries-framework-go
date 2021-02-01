@@ -9,8 +9,8 @@ package vdr
 import (
 	"encoding/json"
 
-	vdrcommand "github.com/hyperledger/aries-framework-go/pkg/controller/command/vdr"
-	didstore "github.com/hyperledger/aries-framework-go/pkg/store/did"
+	vdrcommand "github.com/Universal-Health-Chain/aries-framework-go/pkg/controller/command/vdr"
+	didstore "github.com/Universal-Health-Chain/aries-framework-go/pkg/store/did"
 )
 
 // saveDIDReq model

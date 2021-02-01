@@ -12,9 +12,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/hyperledger/aries-framework-go/pkg/doc/signature/jsonld"
-	"github.com/hyperledger/aries-framework-go/pkg/doc/signature/proof"
-	"github.com/hyperledger/aries-framework-go/pkg/doc/util"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/signature/jsonld"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/signature/proof"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/util"
 )
 
 const defaultProofPurpose = "assertionMethod"

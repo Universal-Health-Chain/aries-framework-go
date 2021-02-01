@@ -19,7 +19,7 @@ import (
 	ed25519pb "github.com/google/tink/go/proto/ed25519_go_proto"
 	tinkpb "github.com/google/tink/go/proto/tink_go_proto"
 
-	"github.com/hyperledger/aries-framework-go/pkg/kms"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/kms"
 )
 
 const (

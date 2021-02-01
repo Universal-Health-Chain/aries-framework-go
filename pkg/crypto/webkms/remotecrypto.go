@@ -21,9 +21,9 @@ import (
 
 	"github.com/bluele/gcache"
 
-	"github.com/hyperledger/aries-framework-go/pkg/common/log"
-	"github.com/hyperledger/aries-framework-go/pkg/crypto"
-	webkmsimpl "github.com/hyperledger/aries-framework-go/pkg/kms/webkms"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/common/log"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/crypto"
+	webkmsimpl "github.com/Universal-Health-Chain/aries-framework-go/pkg/kms/webkms"
 )
 
 var logger = log.New("aries-framework/crypto/webkms")

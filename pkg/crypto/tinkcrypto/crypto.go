@@ -13,7 +13,6 @@ package tinkcrypto
 import (
 	"errors"
 	"fmt"
-
 	"github.com/google/tink/go/aead"
 	aeadsubtle "github.com/google/tink/go/aead/subtle"
 	"github.com/google/tink/go/core/primitiveset"
@@ -22,7 +21,7 @@ import (
 	"github.com/google/tink/go/signature"
 	"golang.org/x/crypto/chacha20poly1305"
 
-	cryptoapi "github.com/hyperledger/aries-framework-go/pkg/crypto"
+	cryptoapi "github.com/Universal-Health-Chain/aries-framework-go/pkg/crypto"
 )
 
 const (

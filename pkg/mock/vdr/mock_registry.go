@@ -11,8 +11,8 @@ import (
 	"crypto/rand"
 	"time"
 
-	"github.com/hyperledger/aries-framework-go/pkg/doc/did"
-	vdrapi "github.com/hyperledger/aries-framework-go/pkg/framework/aries/api/vdr"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/did"
+	vdrapi "github.com/Universal-Health-Chain/aries-framework-go/pkg/framework/aries/api/vdr"
 )
 
 // MockVDRegistry mock implementation of vdr

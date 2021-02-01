@@ -18,7 +18,7 @@ import (
 	"github.com/square/go-jose/v3/json"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hyperledger/aries-framework-go/pkg/internal/test/transportutil"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/internal/test/transportutil"
 )
 
 const (

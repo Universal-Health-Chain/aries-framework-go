@@ -7,7 +7,7 @@ SPDX-License-Identifier: Apache-2.0
 package kms
 
 import (
-	"github.com/hyperledger/aries-framework-go/pkg/controller/command/kms"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/controller/command/kms"
 )
 
 // createKeySetReq model

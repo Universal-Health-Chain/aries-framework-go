@@ -13,7 +13,7 @@ import (
 	"crypto/rsa"
 	"errors"
 
-	"github.com/hyperledger/aries-framework-go/pkg/doc/jose"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/jose"
 )
 
 type ed25519Signer struct {

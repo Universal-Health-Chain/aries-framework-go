@@ -18,14 +18,14 @@ import (
 
 	"github.com/cucumber/godog"
 
-	"github.com/hyperledger/aries-framework-go/pkg/client/didexchange"
-	"github.com/hyperledger/aries-framework-go/pkg/common/log"
-	didexcmd "github.com/hyperledger/aries-framework-go/pkg/controller/command/didexchange"
-	cmdkms "github.com/hyperledger/aries-framework-go/pkg/controller/command/kms"
-	"github.com/hyperledger/aries-framework-go/pkg/doc/jose"
-	"github.com/hyperledger/aries-framework-go/test/bdd/pkg/context"
-	"github.com/hyperledger/aries-framework-go/test/bdd/pkg/sidetree"
-	"github.com/hyperledger/aries-framework-go/test/bdd/pkg/util"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/client/didexchange"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/common/log"
+	didexcmd "github.com/Universal-Health-Chain/aries-framework-go/pkg/controller/command/didexchange"
+	cmdkms "github.com/Universal-Health-Chain/aries-framework-go/pkg/controller/command/kms"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/jose"
+	"github.com/Universal-Health-Chain/aries-framework-go/test/bdd/pkg/context"
+	"github.com/Universal-Health-Chain/aries-framework-go/test/bdd/pkg/sidetree"
+	"github.com/Universal-Health-Chain/aries-framework-go/test/bdd/pkg/util"
 )
 
 const (

@@ -14,12 +14,12 @@ import (
 	"github.com/cucumber/godog"
 	"github.com/google/uuid"
 
-	didexClient "github.com/hyperledger/aries-framework-go/pkg/client/didexchange"
-	"github.com/hyperledger/aries-framework-go/pkg/client/outofband"
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/common/service"
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/protocol/decorator"
-	"github.com/hyperledger/aries-framework-go/test/bdd/pkg/context"
-	bddDIDExchange "github.com/hyperledger/aries-framework-go/test/bdd/pkg/didexchange"
+	didexClient "github.com/Universal-Health-Chain/aries-framework-go/pkg/client/didexchange"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/client/outofband"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/common/service"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/protocol/decorator"
+	"github.com/Universal-Health-Chain/aries-framework-go/test/bdd/pkg/context"
+	bddDIDExchange "github.com/Universal-Health-Chain/aries-framework-go/test/bdd/pkg/didexchange"
 )
 
 // SDKSteps for the out-of-band protocol.

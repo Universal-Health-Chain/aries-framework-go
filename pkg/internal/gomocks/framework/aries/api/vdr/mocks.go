@@ -6,8 +6,8 @@ package mocks
 
 import (
 	gomock "github.com/golang/mock/gomock"
-	did "github.com/hyperledger/aries-framework-go/pkg/doc/did"
-	vdr "github.com/hyperledger/aries-framework-go/pkg/framework/aries/api/vdr"
+	did "github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/did"
+	vdr "github.com/Universal-Health-Chain/aries-framework-go/pkg/framework/aries/api/vdr"
 	reflect "reflect"
 )
 

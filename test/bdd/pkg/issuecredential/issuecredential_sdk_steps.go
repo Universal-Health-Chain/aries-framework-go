@@ -13,14 +13,14 @@ import (
 
 	"github.com/cucumber/godog"
 
-	"github.com/hyperledger/aries-framework-go/pkg/client/didexchange"
-	"github.com/hyperledger/aries-framework-go/pkg/client/issuecredential"
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/common/service"
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/protocol/decorator"
-	"github.com/hyperledger/aries-framework-go/pkg/doc/util"
-	"github.com/hyperledger/aries-framework-go/pkg/doc/verifiable"
-	verifiableStore "github.com/hyperledger/aries-framework-go/pkg/store/verifiable"
-	"github.com/hyperledger/aries-framework-go/test/bdd/pkg/context"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/client/didexchange"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/client/issuecredential"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/common/service"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/protocol/decorator"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/util"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/verifiable"
+	verifiableStore "github.com/Universal-Health-Chain/aries-framework-go/pkg/store/verifiable"
+	"github.com/Universal-Health-Chain/aries-framework-go/test/bdd/pkg/context"
 )
 
 const timeout = time.Second * 5

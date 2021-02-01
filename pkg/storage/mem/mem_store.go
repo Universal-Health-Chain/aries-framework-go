@@ -12,7 +12,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/hyperledger/aries-framework-go/pkg/storage"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/storage"
 )
 
 // TODO https://github.com/hyperledger/aries-framework-go/issues/750 - we will need to consider

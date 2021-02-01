@@ -13,8 +13,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hyperledger/aries-framework-go/pkg/common/log"
-	"github.com/hyperledger/aries-framework-go/pkg/newstorage"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/common/log"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/newstorage"
 )
 
 const failFlush = "failure while flushing data: %w"

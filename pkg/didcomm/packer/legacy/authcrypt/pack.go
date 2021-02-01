@@ -16,10 +16,10 @@ import (
 	chacha "golang.org/x/crypto/chacha20poly1305"
 	"golang.org/x/crypto/poly1305"
 
-	"github.com/hyperledger/aries-framework-go/pkg/internal/cryptoutil"
-	"github.com/hyperledger/aries-framework-go/pkg/kms"
-	"github.com/hyperledger/aries-framework-go/pkg/kms/localkms"
-	"github.com/hyperledger/aries-framework-go/pkg/kms/webkms"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/internal/cryptoutil"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/kms"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/kms/localkms"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/kms/webkms"
 )
 
 // Pack will encode the payload argument

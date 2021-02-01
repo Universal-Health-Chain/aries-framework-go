@@ -16,19 +16,19 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/common/service"
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/dispatcher"
-	"github.com/hyperledger/aries-framework-go/pkg/doc/did"
-	vdrapi "github.com/hyperledger/aries-framework-go/pkg/framework/aries/api/vdr"
-	"github.com/hyperledger/aries-framework-go/pkg/mock/didcomm/msghandler"
-	"github.com/hyperledger/aries-framework-go/pkg/mock/didcomm/protocol"
-	"github.com/hyperledger/aries-framework-go/pkg/mock/didcomm/protocol/generic"
-	mocksvc "github.com/hyperledger/aries-framework-go/pkg/mock/didcomm/service"
-	mockdiddoc "github.com/hyperledger/aries-framework-go/pkg/mock/diddoc"
-	mockkms "github.com/hyperledger/aries-framework-go/pkg/mock/kms"
-	"github.com/hyperledger/aries-framework-go/pkg/mock/storage"
-	mockvdr "github.com/hyperledger/aries-framework-go/pkg/mock/vdr"
-	"github.com/hyperledger/aries-framework-go/pkg/store/connection"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/common/service"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/dispatcher"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/did"
+	vdrapi "github.com/Universal-Health-Chain/aries-framework-go/pkg/framework/aries/api/vdr"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/didcomm/msghandler"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/didcomm/protocol"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/didcomm/protocol/generic"
+	mocksvc "github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/didcomm/service"
+	mockdiddoc "github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/diddoc"
+	mockkms "github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/kms"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/storage"
+	mockvdr "github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/vdr"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/store/connection"
 )
 
 func TestNew(t *testing.T) {

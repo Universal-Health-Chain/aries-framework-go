@@ -6,10 +6,10 @@ package mocks
 
 import (
 	gomock "github.com/golang/mock/gomock"
-	service "github.com/hyperledger/aries-framework-go/pkg/didcomm/common/service"
-	presentproof "github.com/hyperledger/aries-framework-go/pkg/didcomm/protocol/presentproof"
-	vdr "github.com/hyperledger/aries-framework-go/pkg/framework/aries/api/vdr"
-	verifiable "github.com/hyperledger/aries-framework-go/pkg/store/verifiable"
+	service "github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/common/service"
+	presentproof "github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/protocol/presentproof"
+	vdr "github.com/Universal-Health-Chain/aries-framework-go/pkg/framework/aries/api/vdr"
+	verifiable "github.com/Universal-Health-Chain/aries-framework-go/pkg/store/verifiable"
 	reflect "reflect"
 )
 

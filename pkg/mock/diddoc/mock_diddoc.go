@@ -8,7 +8,7 @@ package mockdiddoc
 import (
 	"github.com/btcsuite/btcutil/base58"
 
-	"github.com/hyperledger/aries-framework-go/pkg/doc/did"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/did"
 )
 
 // GetMockDIDDoc creates a mock DID Doc for testing.

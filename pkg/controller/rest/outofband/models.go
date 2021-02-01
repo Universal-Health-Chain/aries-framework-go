@@ -7,8 +7,8 @@ SPDX-License-Identifier: Apache-2.0
 package outofband
 
 import (
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/protocol/decorator"
-	protocol "github.com/hyperledger/aries-framework-go/pkg/didcomm/protocol/outofband"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/protocol/decorator"
+	protocol "github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/protocol/outofband"
 )
 
 // outofbandCreateRequest model

@@ -14,9 +14,9 @@ import (
 	"github.com/google/tink/go/testkeyset"
 	"github.com/google/tink/go/testutil"
 
-	kmsservice "github.com/hyperledger/aries-framework-go/pkg/kms"
-	"github.com/hyperledger/aries-framework-go/pkg/secretlock"
-	"github.com/hyperledger/aries-framework-go/pkg/storage"
+	kmsservice "github.com/Universal-Health-Chain/aries-framework-go/pkg/kms"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/secretlock"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/storage"
 )
 
 // KeyManager mocks a local Key Management Service + ExportableKeyManager.

@@ -21,7 +21,7 @@ import (
 	"github.com/tidwall/sjson"
 	"github.com/xeipuuv/gojsonschema"
 
-	"github.com/hyperledger/aries-framework-go/pkg/doc/verifiable"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/verifiable"
 )
 
 const (

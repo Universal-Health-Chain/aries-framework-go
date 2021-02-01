@@ -13,10 +13,10 @@ import (
 
 	"github.com/btcsuite/btcutil/base58"
 
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/common/service"
-	diddoc "github.com/hyperledger/aries-framework-go/pkg/doc/did"
-	"github.com/hyperledger/aries-framework-go/pkg/framework/aries/api/vdr"
-	"github.com/hyperledger/aries-framework-go/pkg/storage"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/common/service"
+	diddoc "github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/did"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/framework/aries/api/vdr"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/storage"
 )
 
 // StoreName DID connection store name.

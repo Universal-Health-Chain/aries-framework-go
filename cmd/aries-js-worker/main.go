@@ -20,15 +20,15 @@ import (
 	"github.com/google/uuid"
 	"github.com/mitchellh/mapstructure"
 
-	"github.com/hyperledger/aries-framework-go/component/storage/jsindexeddb"
-	"github.com/hyperledger/aries-framework-go/pkg/common/log"
-	"github.com/hyperledger/aries-framework-go/pkg/controller"
-	cmdctrl "github.com/hyperledger/aries-framework-go/pkg/controller/command"
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/messaging/msghandler"
-	arieshttp "github.com/hyperledger/aries-framework-go/pkg/didcomm/transport/http"
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/transport/ws"
-	"github.com/hyperledger/aries-framework-go/pkg/framework/aries"
-	"github.com/hyperledger/aries-framework-go/pkg/vdr/httpbinding"
+	"github.com/Universal-Health-Chain/aries-framework-go/component/storage/jsindexeddb"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/common/log"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/controller"
+	cmdctrl "github.com/Universal-Health-Chain/aries-framework-go/pkg/controller/command"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/messaging/msghandler"
+	arieshttp "github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/transport/http"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/transport/ws"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/framework/aries"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/vdr/httpbinding"
 )
 
 const (

@@ -7,8 +7,8 @@ SPDX-License-Identifier: Apache-2.0
 package didexchange
 
 import (
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/protocol/decorator"
-	"github.com/hyperledger/aries-framework-go/pkg/doc/did"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/protocol/decorator"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/did"
 )
 
 // OOBInvitation to connect with did-exchange.

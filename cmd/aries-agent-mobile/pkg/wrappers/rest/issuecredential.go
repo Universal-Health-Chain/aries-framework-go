@@ -7,8 +7,8 @@ SPDX-License-Identifier: Apache-2.0
 package rest
 
 import (
-	"github.com/hyperledger/aries-framework-go/cmd/aries-agent-mobile/pkg/wrappers/models"
-	cmdisscred "github.com/hyperledger/aries-framework-go/pkg/controller/command/issuecredential"
+	"github.com/Universal-Health-Chain/aries-framework-go/cmd/aries-agent-mobile/pkg/wrappers/models"
+	cmdisscred "github.com/Universal-Health-Chain/aries-framework-go/pkg/controller/command/issuecredential"
 )
 
 // IssueCredential implements the IssueCredentialController interface for all credential issuing operations.

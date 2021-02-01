@@ -12,8 +12,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/hyperledger/aries-framework-go/cmd/aries-agent-mobile/pkg/wrappers/models"
-	opvdr "github.com/hyperledger/aries-framework-go/pkg/controller/rest/vdr"
+	"github.com/Universal-Health-Chain/aries-framework-go/cmd/aries-agent-mobile/pkg/wrappers/models"
+	opvdr "github.com/Universal-Health-Chain/aries-framework-go/pkg/controller/rest/vdr"
 )
 
 const (

@@ -15,8 +15,8 @@ import (
 
 	"github.com/piprate/json-gold/ld"
 
-	"github.com/hyperledger/aries-framework-go/pkg/doc/bbs/bbs12381g2pub"
-	"github.com/hyperledger/aries-framework-go/pkg/doc/verifiable"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/bbs/bbs12381g2pub"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/verifiable"
 )
 
 type UniversityDegree struct {

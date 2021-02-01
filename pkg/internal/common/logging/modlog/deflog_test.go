@@ -9,7 +9,7 @@ package modlog
 import (
 	"testing"
 
-	"github.com/hyperledger/aries-framework-go/pkg/internal/common/logging/metadata"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/internal/common/logging/metadata"
 )
 
 func TestDefLog(t *testing.T) {

@@ -12,8 +12,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/hyperledger/aries-framework-go/pkg/internal/common/logging/metadata"
-	"github.com/hyperledger/aries-framework-go/pkg/internal/common/logging/modlog"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/internal/common/logging/metadata"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/internal/common/logging/modlog"
 )
 
 // TestDefaultLogger tests default logging feature when no custom logging provider is supplied via 'Initialize()' call.

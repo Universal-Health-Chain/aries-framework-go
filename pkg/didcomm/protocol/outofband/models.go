@@ -6,7 +6,7 @@ SPDX-License-Identifier: Apache-2.0
 
 package outofband
 
-import "github.com/hyperledger/aries-framework-go/pkg/didcomm/protocol/decorator"
+import "github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/protocol/decorator"
 
 // Request is this protocol's 'request' message.
 type Request struct {

@@ -11,7 +11,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hyperledger/aries-framework-go/pkg/storage/edv/models"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/storage/edv/models"
 )
 
 // ErrValueIsDeleted is returned when value is deleted.

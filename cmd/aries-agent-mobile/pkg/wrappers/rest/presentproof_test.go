@@ -13,8 +13,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/hyperledger/aries-framework-go/cmd/aries-agent-mobile/pkg/wrappers/models"
-	oppresproof "github.com/hyperledger/aries-framework-go/pkg/controller/rest/presentproof"
+	"github.com/Universal-Health-Chain/aries-framework-go/cmd/aries-agent-mobile/pkg/wrappers/models"
+	oppresproof "github.com/Universal-Health-Chain/aries-framework-go/pkg/controller/rest/presentproof"
 )
 
 func getPresentProofController(t *testing.T) *PresentProof {

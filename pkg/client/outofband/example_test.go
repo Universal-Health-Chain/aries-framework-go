@@ -14,18 +14,18 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/hyperledger/aries-framework-go/pkg/client/didexchange"
-	"github.com/hyperledger/aries-framework-go/pkg/client/mediator"
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/common/service"
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/protocol/decorator"
-	didsvc "github.com/hyperledger/aries-framework-go/pkg/didcomm/protocol/didexchange"
-	routesvc "github.com/hyperledger/aries-framework-go/pkg/didcomm/protocol/mediator"
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/protocol/outofband"
-	mockdidexchange "github.com/hyperledger/aries-framework-go/pkg/mock/didcomm/protocol/didexchange"
-	mockroute "github.com/hyperledger/aries-framework-go/pkg/mock/didcomm/protocol/mediator"
-	mockkms "github.com/hyperledger/aries-framework-go/pkg/mock/kms"
-	mockprovider "github.com/hyperledger/aries-framework-go/pkg/mock/provider"
-	"github.com/hyperledger/aries-framework-go/pkg/storage/mem"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/client/didexchange"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/client/mediator"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/common/service"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/protocol/decorator"
+	didsvc "github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/protocol/didexchange"
+	routesvc "github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/protocol/mediator"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/protocol/outofband"
+	mockdidexchange "github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/didcomm/protocol/didexchange"
+	mockroute "github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/didcomm/protocol/mediator"
+	mockkms "github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/kms"
+	mockprovider "github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/provider"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/storage/mem"
 )
 
 const (

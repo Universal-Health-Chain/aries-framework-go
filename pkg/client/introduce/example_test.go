@@ -13,15 +13,15 @@ import (
 
 	"github.com/golang/mock/gomock"
 
-	"github.com/hyperledger/aries-framework-go/pkg/client/outofband"
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/common/service"
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/messenger"
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/protocol/introduce"
-	serviceMocks "github.com/hyperledger/aries-framework-go/pkg/internal/gomocks/didcomm/common/service"
-	dispatcherMocks "github.com/hyperledger/aries-framework-go/pkg/internal/gomocks/didcomm/dispatcher"
-	messengerMocks "github.com/hyperledger/aries-framework-go/pkg/internal/gomocks/didcomm/messenger"
-	introduceServiceMocks "github.com/hyperledger/aries-framework-go/pkg/internal/gomocks/didcomm/protocol/introduce"
-	"github.com/hyperledger/aries-framework-go/pkg/storage/mem"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/client/outofband"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/common/service"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/messenger"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/protocol/introduce"
+	serviceMocks "github.com/Universal-Health-Chain/aries-framework-go/pkg/internal/gomocks/didcomm/common/service"
+	dispatcherMocks "github.com/Universal-Health-Chain/aries-framework-go/pkg/internal/gomocks/didcomm/dispatcher"
+	messengerMocks "github.com/Universal-Health-Chain/aries-framework-go/pkg/internal/gomocks/didcomm/messenger"
+	introduceServiceMocks "github.com/Universal-Health-Chain/aries-framework-go/pkg/internal/gomocks/didcomm/protocol/introduce"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/storage/mem"
 )
 
 const (

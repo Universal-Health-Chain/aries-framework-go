@@ -7,8 +7,8 @@ SPDX-License-Identifier: Apache-2.0
 package mediator
 
 import (
-	"github.com/hyperledger/aries-framework-go/pkg/client/outofband"
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/protocol/messagepickup"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/client/outofband"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/protocol/messagepickup"
 )
 
 // RegisterRoute contains parameters for registering/reconnecting router.

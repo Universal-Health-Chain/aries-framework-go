@@ -9,8 +9,8 @@ package kms
 import (
 	"io"
 
-	"github.com/hyperledger/aries-framework-go/pkg/secretlock"
-	"github.com/hyperledger/aries-framework-go/pkg/storage"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/secretlock"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/storage"
 )
 
 // package kms provides the KMS interface of the framework. This includes the provider interface necessary for building

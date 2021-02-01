@@ -9,8 +9,8 @@ package didexchange
 import (
 	"fmt"
 
-	"github.com/hyperledger/aries-framework-go/pkg/store/connection"
-	"github.com/hyperledger/aries-framework-go/pkg/store/did"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/store/connection"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/store/did"
 )
 
 const (

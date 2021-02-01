@@ -14,8 +14,8 @@ import (
 	"github.com/google/tink/go/subtle/random"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hyperledger/aries-framework-go/pkg/kms"
-	mockstorage "github.com/hyperledger/aries-framework-go/pkg/mock/storage"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/kms"
+	mockstorage "github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/storage"
 )
 
 func TestLocalKMSWriter(t *testing.T) {

@@ -5,7 +5,7 @@ SPDX-License-Identifier: Apache-2.0
 
 package proof
 
-import "github.com/hyperledger/aries-framework-go/pkg/doc/signature/jsonld"
+import "github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/signature/jsonld"
 
 //nolint:gochecknoglobals
 var jsonldDidCache = jsonld.WithDocumentLoaderCache(

@@ -21,7 +21,7 @@ import (
 	josecipher "github.com/square/go-jose/v3/cipher"
 	"golang.org/x/crypto/chacha20poly1305"
 
-	"github.com/hyperledger/aries-framework-go/pkg/internal/cryptoutil"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/internal/cryptoutil"
 )
 
 type keyWrapper interface {

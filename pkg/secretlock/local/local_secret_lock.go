@@ -13,9 +13,9 @@ import (
 
 	"github.com/google/tink/go/subtle/random"
 
-	"github.com/hyperledger/aries-framework-go/pkg/common/log"
-	"github.com/hyperledger/aries-framework-go/pkg/secretlock"
-	cipherutil "github.com/hyperledger/aries-framework-go/pkg/secretlock/local/internal/cipher"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/common/log"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/secretlock"
+	cipherutil "github.com/Universal-Health-Chain/aries-framework-go/pkg/secretlock/local/internal/cipher"
 )
 
 // package local provides a local secret lock service. The user must create a master key and store it

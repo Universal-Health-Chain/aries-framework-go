@@ -22,8 +22,8 @@ import (
 	"github.com/piprate/json-gold/ld"
 	"github.com/xeipuuv/gojsonschema"
 
-	"github.com/hyperledger/aries-framework-go/pkg/doc/signature/verifier"
-	vdrapi "github.com/hyperledger/aries-framework-go/pkg/framework/aries/api/vdr"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/signature/verifier"
+	vdrapi "github.com/Universal-Health-Chain/aries-framework-go/pkg/framework/aries/api/vdr"
 )
 
 // TODO https://github.com/square/go-jose/issues/263 support ES256K

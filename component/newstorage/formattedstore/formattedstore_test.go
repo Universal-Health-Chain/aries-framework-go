@@ -13,11 +13,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/hyperledger/aries-framework-go/component/newstorage/formattedstore"
-	"github.com/hyperledger/aries-framework-go/component/newstorage/mem"
-	"github.com/hyperledger/aries-framework-go/component/newstorage/mock"
-	"github.com/hyperledger/aries-framework-go/pkg/newstorage"
-	newstoragetest "github.com/hyperledger/aries-framework-go/test/newstorage"
+	"github.com/Universal-Health-Chain/aries-framework-go/component/newstorage/formattedstore"
+	"github.com/Universal-Health-Chain/aries-framework-go/component/newstorage/mem"
+	"github.com/Universal-Health-Chain/aries-framework-go/component/newstorage/mock"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/newstorage"
+	newstoragetest "github.com/Universal-Health-Chain/aries-framework-go/test/newstorage"
 )
 
 type noOpFormatter struct {

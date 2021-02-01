@@ -12,7 +12,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/hyperledger/aries-framework-go/pkg/storage/formattedstore"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/storage/formattedstore"
 )
 
 func TestNewBatchWrite(t *testing.T) {

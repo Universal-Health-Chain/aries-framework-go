@@ -13,7 +13,7 @@ import (
 
 	"github.com/google/tink/go/tink"
 
-	"github.com/hyperledger/aries-framework-go/pkg/secretlock"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/secretlock"
 )
 
 // LocalKeyURIPrefix for locally stored keys.

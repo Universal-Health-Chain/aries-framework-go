@@ -13,7 +13,7 @@ import (
 	josejwt "github.com/square/go-jose/v3/jwt"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hyperledger/aries-framework-go/pkg/doc/jwt"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/jwt"
 )
 
 func TestDecodeJWT(t *testing.T) {

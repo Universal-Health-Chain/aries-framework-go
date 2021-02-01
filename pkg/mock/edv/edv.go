@@ -19,7 +19,7 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hyperledger/aries-framework-go/pkg/storage/edv/models"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/storage/edv/models"
 )
 
 const (

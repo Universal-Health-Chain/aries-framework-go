@@ -6,7 +6,7 @@ SPDX-License-Identifier: Apache-2.0
 
 package model
 
-import "github.com/hyperledger/aries-framework-go/pkg/didcomm/protocol/decorator"
+import "github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/protocol/decorator"
 
 // Ack acknowledgement struct.
 type Ack struct {

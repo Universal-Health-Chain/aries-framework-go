@@ -10,9 +10,9 @@ import (
 	"crypto/ed25519"
 	"errors"
 
-	cryptoapi "github.com/hyperledger/aries-framework-go/pkg/crypto"
-	"github.com/hyperledger/aries-framework-go/pkg/doc/util/signature/internal/signer"
-	kmsapi "github.com/hyperledger/aries-framework-go/pkg/kms"
+	cryptoapi "github.com/Universal-Health-Chain/aries-framework-go/pkg/crypto"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/util/signature/internal/signer"
+	kmsapi "github.com/Universal-Health-Chain/aries-framework-go/pkg/kms"
 )
 
 // NewCryptoSigner creates a new signer based on crypto if possible.

@@ -12,8 +12,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/hyperledger/aries-framework-go/pkg/doc/jose"
-	"github.com/hyperledger/aries-framework-go/test/bdd/pkg/sidetree"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/jose"
+	"github.com/Universal-Health-Chain/aries-framework-go/test/bdd/pkg/sidetree"
 )
 
 func main() {

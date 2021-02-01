@@ -7,7 +7,7 @@ SPDX-License-Identifier: Apache-2.0
 package modlog
 
 import (
-	"github.com/hyperledger/aries-framework-go/pkg/internal/common/logging/metadata"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/internal/common/logging/metadata"
 )
 
 // NewModLog returns new moduled logger instance based on given logger implementation and module.

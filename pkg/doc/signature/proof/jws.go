@@ -11,7 +11,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/hyperledger/aries-framework-go/pkg/doc/signature/jsonld"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/doc/signature/jsonld"
 )
 
 const (

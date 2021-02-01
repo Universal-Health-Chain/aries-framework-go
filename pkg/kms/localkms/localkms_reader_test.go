@@ -13,8 +13,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	mockstorage "github.com/hyperledger/aries-framework-go/pkg/mock/storage"
-	"github.com/hyperledger/aries-framework-go/pkg/storage"
+	mockstorage "github.com/Universal-Health-Chain/aries-framework-go/pkg/mock/storage"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/storage"
 )
 
 func TestLocalKMSReader(t *testing.T) {

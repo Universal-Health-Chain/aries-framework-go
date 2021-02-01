@@ -9,8 +9,8 @@ package messagepickup
 import (
 	"time"
 
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/common/model"
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/protocol/decorator"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/common/model"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/protocol/decorator"
 )
 
 // StatusRequest sent by the recipient to the message_holder to request a status message./0212-pickup#statusrequest

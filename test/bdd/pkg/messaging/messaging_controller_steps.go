@@ -19,12 +19,12 @@ import (
 	"github.com/cucumber/godog"
 	"github.com/google/uuid"
 
-	"github.com/hyperledger/aries-framework-go/pkg/controller/command/didexchange"
-	"github.com/hyperledger/aries-framework-go/pkg/controller/command/messaging"
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/common/service"
-	"github.com/hyperledger/aries-framework-go/pkg/didcomm/messaging/service/basic"
-	bddcontext "github.com/hyperledger/aries-framework-go/test/bdd/pkg/context"
-	"github.com/hyperledger/aries-framework-go/test/bdd/pkg/util"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/controller/command/didexchange"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/controller/command/messaging"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/common/service"
+	"github.com/Universal-Health-Chain/aries-framework-go/pkg/didcomm/messaging/service/basic"
+	bddcontext "github.com/Universal-Health-Chain/aries-framework-go/test/bdd/pkg/context"
+	"github.com/Universal-Health-Chain/aries-framework-go/test/bdd/pkg/util"
 )
 
 const (
