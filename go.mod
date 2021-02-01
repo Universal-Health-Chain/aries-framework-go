@@ -2,7 +2,7 @@
 //
 // SPDX-License-Identifier: Apache-2.0
 
-module github.com/hyperledger/aries-framework-go
+module github.com/Universal-Health-Chain/aries-framework-go
 
 require (
 	github.com/PaesslerAG/gval v1.1.0
